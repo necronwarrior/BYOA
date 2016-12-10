@@ -31,3 +31,25 @@ C:\Users\Celena Caswell\Documents\BYOA\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\Celena Caswell\Documents\BYOA\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Celena Caswell\Documents\BYOA\obj\Debug\Assembly-CSharp.dll
 C:\Users\Celena Caswell\Documents\BYOA\obj\Debug\Assembly-CSharp.pdb
+M:\BYOA\Temp\bin\Debug\Assembly-CSharp.dll
+M:\BYOA\Temp\bin\Debug\Assembly-CSharp.pdb
+M:\BYOA\Temp\bin\Debug\UnityEditor.dll
+M:\BYOA\Temp\bin\Debug\UnityEngine.dll
+M:\BYOA\Temp\bin\Debug\UnityEngine.Networking.dll
+M:\BYOA\Temp\bin\Debug\UnityEngine.UI.dll
+M:\BYOA\Temp\bin\Debug\Mono.Cecil.dll
+M:\BYOA\Temp\bin\Debug\Unity.SerializationLogic.dll
+M:\BYOA\Temp\bin\Debug\Unity.DataContract.dll
+M:\BYOA\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+M:\BYOA\Temp\bin\Debug\Unity.UNetWeaver.dll
+M:\BYOA\Temp\bin\Debug\Unity.CecilTools.dll
+M:\BYOA\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+M:\BYOA\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+M:\BYOA\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+M:\BYOA\Temp\bin\Debug\UnityEngine.xml
+M:\BYOA\Temp\bin\Debug\UnityEditor.xml
+M:\BYOA\Temp\bin\Debug\UnityEngine.UI.xml
+M:\BYOA\Temp\bin\Debug\UnityEngine.Networking.xml
+M:\BYOA\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+M:\BYOA\obj\Debug\Assembly-CSharp.dll
+M:\BYOA\obj\Debug\Assembly-CSharp.pdb
