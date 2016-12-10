@@ -5,7 +5,7 @@ using UnityEngine;
 public class CardProperties : MonoBehaviour {
 
 	float CurrentRotation;
-	public float incrementDelta, newcurr;
+	public float incrementDelta, newcurr, x, y ,z;
 
 	// Use this for initialization
 	void Start () {
@@ -16,23 +16,23 @@ public class CardProperties : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		x = transform.rotation.eulerAngles.x;
+		y = transform.rotation.eulerAngles.y;
+		z = transform.rotation.eulerAngles.z;
+
+		incrementDelta += (Time.deltaTime / 10.0f);
+
+		if(gameObject.transform.rotation.eulerAngles.y < (CurrentRotation +180f) )
+		{
+			transform.Rotate(0.0f,(Mathf.Sin (Mathf.Lerp(0.0f, Mathf.PI,incrementDelta))/10.0f),0.0f);
+		}
 	}
 
 	void CardFlip()
 	{
 		float CurrentRotation = gameObject.transform.rotation.eulerAngles.y;
-		float incrementDelta = 0.0f;
 
-		while(gameObject.transform.rotation.eulerAngles.y < (CurrentRotation +180f) )
-		{
-			incrementDelta += Time.deltaTime;
-			transform.Rotate(transform.rotation.eulerAngles.x, 
-				Mathf.LerpAngle (transform.rotation.eulerAngles.y, 
-					(CurrentRotation + 180f),
-					Time.time),
-				transform.rotation.eulerAngles.z);
-		}
+
 
 	}
 
